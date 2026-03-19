@@ -1,0 +1,24 @@
+title: Manila Sun
+description: Exploring Filipino culture.
+url: "https://manilasun.com"
+baseurl: ""
+
+permalink: /:title/
+
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "page"

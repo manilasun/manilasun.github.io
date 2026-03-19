@@ -1,0 +1,69 @@
+---
+layout: default
+title: Home
+---
+<div class="posts-grid">
+  {% for post in site.posts %}
+  <article class="post-card">
+    {% if post.image %}
+    <a href="{{ post.url | relative_url }}" class="post-card-image">
+      <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+    </a>
+    {% endif %}
+    <div class="post-card-body">
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+      <div class="post-card-meta">
+        <span class="meta-date"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> {{ post.date | date: "%B %-d, %Y" }}</span>
+        {% if post.author %}
+        <span class="meta-author"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg> By {{ post.author }}</span>
+        {% endif %}
+      </div>
+    </div>
+  </article>
+  {% endfor %}
+</div>
+
+<hr class="section-divider">
+
+<div class="homepage-footer-widgets">
+  <div class="widget widget-recent-posts">
+    <h3>Recent Posts</h3>
+    <ul>
+      {% for post in site.posts limit:5 %}
+      <li>
+        {% if post.image %}
+        <a href="{{ post.url | relative_url }}" class="widget-thumb">
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+        </a>
+        {% endif %}
+        <div class="widget-post-info">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <span class="widget-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="widget-right">
+    <div class="widget widget-search">
+      <form class="search-form" action="javascript:void(0);">
+        <input type="text" placeholder="Search ..." class="search-input">
+        <button type="submit" class="search-button">Search</button>
+      </form>
+    </div>
+
+    <div class="widget widget-archives">
+      <h3>Archives</h3>
+      <p><a href="#">October 2020</a></p>
+      <p><a href="#">September 2020</a></p>
+    </div>
+
+    <div class="widget widget-topics">
+      <h3>Topics</h3>
+      <p><a href="#">Food</a></p>
+      <p><a href="#">History</a></p>
+    </div>
+  </div>
+</div>
