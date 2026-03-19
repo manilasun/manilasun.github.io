@@ -13,5 +13,42 @@
     {{ content }}
   </main>
   {% include footer.html %}
+  <script>
+  (function() {
+    var form = document.getElementById('search-form');
+    if (!form) return;
+    var input = document.getElementById('search-input');
+    var results = document.getElementById('search-results');
+    var posts = null;
+
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      var query = input.value.trim().toLowerCase();
+      if (!query) { results.innerHTML = ''; return; }
+
+      if (posts) {
+        showResults(query);
+      } else {
+        fetch('/search.json')
+          .then(function(r) { return r.json(); })
+          .then(function(data) { posts = data; showResults(query); });
+      }
+    });
+
+    function showResults(query) {
+      var matches = posts.filter(function(p) {
+        return p.title.toLowerCase().indexOf(query) !== -1 ||
+               p.content.toLowerCase().indexOf(query) !== -1;
+      });
+      if (matches.length === 0) {
+        results.innerHTML = '<p class="search-no-results">No results found.</p>';
+      } else {
+        results.innerHTML = matches.map(function(p) {
+          return '<div class="search-result"><a href="' + p.url + '">' + p.title + '</a><span class="widget-date">' + p.date + '</span></div>';
+        }).join('');
+      }
+    }
+  })();
+  </script>
 </body>
 </html>

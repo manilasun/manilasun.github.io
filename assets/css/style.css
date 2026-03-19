@@ -263,6 +263,29 @@ img {
   opacity: 0.9;
 }
 
+/* Search Results */
+.search-result {
+  margin-bottom: 12px;
+}
+
+.search-result a {
+  color: var(--color-dark);
+  font-weight: 600;
+  font-size: 15px;
+}
+.search-result a:hover {
+  color: var(--color-red);
+}
+
+.search-result .widget-date {
+  display: block;
+}
+
+.search-no-results {
+  color: var(--color-gray);
+  font-size: 14px;
+}
+
 /* Archives & Topics Widget */
 .widget-archives, .widget-topics {
   margin-bottom: 24px;
