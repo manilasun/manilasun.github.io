@@ -1,0 +1,44 @@
+<hr class="section-divider">
+
+<div class="homepage-footer-widgets">
+  <div class="widget widget-recent-posts">
+    <h3>Recent Posts</h3>
+    <ul>
+      {% for post in site.posts limit:5 %}
+      <li>
+        {% if post.image %}
+        <a href="{{ post.url | relative_url }}" class="widget-thumb">
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+        </a>
+        {% endif %}
+        <div class="widget-post-info">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <span class="widget-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="widget-right">
+    <div class="widget widget-search">
+      <form class="search-form" id="search-form">
+        <input type="text" placeholder="Search ..." class="search-input" id="search-input">
+        <button type="submit" class="search-button">Search</button>
+      </form>
+      <div id="search-results"></div>
+    </div>
+
+    <div class="widget widget-archives">
+      <h3>Archives</h3>
+      <p><a href="#">October 2020</a></p>
+      <p><a href="#">September 2020</a></p>
+    </div>
+
+    <div class="widget widget-topics">
+      <h3>Topics</h3>
+      <p><a href="#">Food</a></p>
+      <p><a href="#">History</a></p>
+    </div>
+  </div>
+</div>
