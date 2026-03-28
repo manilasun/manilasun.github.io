@@ -90,6 +90,14 @@ img {
   opacity: 0.7;
 }
 
+/* Homepage Title */
+.homepage-title {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  color: var(--color-dark);
+  margin: 30px 0 10px;
+}
+
 /* Posts Grid - Homepage */
 .posts-grid {
   display: grid;

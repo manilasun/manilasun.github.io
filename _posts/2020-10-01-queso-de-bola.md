@@ -6,6 +6,7 @@ author: Amanda Natividad
 categories: [Food, History]
 tags: ["noche buena", "queso de bola"]
 image: /assets/images/quesodebola.jpg
+description: "Queso de bola is the iconic ball of Edam cheese at the center of every Filipino Christmas celebration. Learn about this beloved Noche Buena tradition."
 ---
 
 Growing up as a Filipino American, I knew that when I saw that big ball of cheese wrapped in red, crinkly paper, it was officially Christmastime.
@@ -24,7 +25,7 @@ For Filipinos, the holiday season is also time to be spent with family, to be gr
 
 Typically during Christmas season, you’ll see platters of [pancit](https://manilasun.com/pancit/) — not just because the noodle dish is easy to make en masse — but because the noodles symbolize long life. You’ll also see queso de bola for its symbolism: it comes in rounds, so it represents money or wealth, and its red rind represents good luck.
 
-The cheese is a big part of Noche Buena, the midnight feast on Christmas Eve. In the Philippines, where people are predominantly Catholic, it’s tradition for families to attend evening mass on Christmas Eve. Then everyone goes home [to a feast](https://www.thespruceeats.com/philippine-noche-buena-feast-3030319), which starts around midnight and stretches into the wee hours of Christmas morning. At these feasts, queso de bola often features prominently among pancit, hamon, Filipino fruit salad, and other traditional dishes. 
+The cheese is a big part of Noche Buena, the midnight feast on Christmas Eve. In the Philippines, where people are predominantly Catholic, it’s tradition for families to attend evening mass on Christmas Eve. Then everyone goes home [to a feast](https://www.thespruceeats.com/philippine-noche-buena-feast-3030319), which starts around midnight and stretches into the wee hours of Christmas morning. At these feasts, queso de bola often features prominently among pancit, hamon, Filipino fruit salad, and other traditional dishes. You might even see [tocino](/tocino/) on the breakfast table the next morning. 
 
 ## How It's Typically Used in Filipino Recipes
 

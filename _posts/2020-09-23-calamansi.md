@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Calamansi: The Sour Filipino Fruit That Isn't a Lime or Lemon"
+title: "Calamansi: The Filipino Citrus Fruit That Isn't a Lime"
 date: 2020-09-23
 author: Amanda Natividad
 categories: [Food]
-tags: []
+tags: ["calamansi", "filipino fruit", "citrus"]
 image: /assets/images/calamansi.jpeg
+description: "Calamansi is a hybrid citrus fruit popular in Filipino cooking. Learn what it tastes like, how it's used in dishes and drinks, and where to find it."
 ---
 
 You’ve probably heard of calamansi (also spelled “kalamansi” or called "calamondin") or seen it in text as you scrolled through Filipino recipe sites. Technically, it’s a hybrid citrus plant derived from kumquat and mandarin orange parents. But it’s best known as a small round fruit, about one-third the size of a lime.
@@ -100,4 +101,4 @@ As for flavored sauces, you'll find several variations at Filipino stores. Some 
 
 ## Try It If You Find It
 
-If you come across calamansi, whether it's the fresh fruit itself, or a flavored food ingredient, be sure to pick it up. You might find that it's easy to integrate into your cooking.
+If you come across calamansi, whether it's the fresh fruit itself, or a flavored food ingredient, be sure to pick it up. You might find that it's easy to integrate into your cooking. And while you're exploring Filipino flavors, check out some of the other dishes we've covered, like [tocino](/tocino/) and [queso de bola](/queso-de-bola/).
