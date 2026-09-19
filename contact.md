@@ -9,4 +9,6 @@ We'd love to hear from you. Whether you have a question about Filipino food, a s
 
 **Email:** [themanilasun@gmail.com](mailto:themanilasun@gmail.com)
 
+**Music & artist inquiries:** Ian Alas — [ianalas@gmail.com](mailto:ianalas@gmail.com)
+
 You can also find us on [YouTube](https://www.youtube.com/@manilasun) and [TikTok](https://www.tiktok.com/@manilasun).
